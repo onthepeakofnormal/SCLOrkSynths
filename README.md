@@ -3,15 +3,7 @@ SCLOrkSynthsTidal
  
 Modified collection of SuperCollider SynthDefs from SCLOrkSynths to work with TidalCycles.
 
-Since some SuperDirt modules already respond to common arguments (like att, rel, etc.) these parameters cannot be used to control custom synths on the server. Thus I added an underscore to the end of these parameters. To use them in Tidal one has to execute the following code
-
-let 
-  att_ = pF "att_" \\
-  rel_ = pF "rel_" \\
-  sus_ = pF "sus_"
-  dec_ = pF "dec_"
-  gate_ = PF "gate_"
-  cutoff_ = pF "cutoff_"
+Since some SuperDirt modules already respond to common arguments (like att, rel, etc.) these parameters cannot be used to control custom synths on the server. Thus I added an underscore to the end of these parameters.
 
 ## Installation
 
